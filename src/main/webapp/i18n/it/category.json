@@ -1,0 +1,12 @@
+{
+  "coopcycleApp": {
+    "Category": {
+      "null": "",
+      "PIZZERIA": "PIZZERIA",
+      "FASTFOOD": "FASTFOOD",
+      "BURGER": "BURGER",
+      "ASIATIC": "ASIATIC",
+      "OTHER": "OTHER"
+    }
+  }
+}

@@ -1,0 +1,73 @@
+
+application {
+  config {
+    baseName coopcycle,
+    applicationType monolith,
+    packageName com.coopcycle,
+    prodDatabaseType postgresql,
+    clientFramework react,
+    languages [fr, en, it, ja, ar-ly],
+    nativeLanguage fr,
+  }
+  entities *
+}
+
+enum Category {
+	PIZZERIA,
+    FASTFOOD,
+    BURGER,
+    ASIATIC,
+    OTHER
+}
+
+entity Cooperative {
+	name String required unique maxlength(30)
+}
+
+entity Zone {}
+
+entity City {
+	name String required maxlength(50),
+    zipCode String required maxlength(5),
+}
+
+entity DeliverMan {
+	name String required maxlength(40),
+    age Integer required min(18),
+    profilePicture ImageBlob maxbytes(3000000)
+}
+
+entity Customer {
+	name String required maxlength(40),
+    age Integer required min(18),
+    adress String required maxlength(150),
+}
+
+entity Restaurant {
+	name String required maxlength(40),
+    adress String required maxlength(150),
+    category Category
+}
+
+entity Meal {
+	name String required maxlength(30),
+    price Float required,
+    description String maxlength(1000)
+}
+
+relationship OneToOne {
+	Cooperative to Zone,
+    Customer to City,
+    Restaurant to City
+}
+
+relationship OneToMany {
+  Cooperative to DeliverMan,
+  Cooperative to Restaurant,
+  Cooperative to Customer,
+  Restaurant to Meal,
+  Zone to City
+}
+
+dto * with mapstruct
+    

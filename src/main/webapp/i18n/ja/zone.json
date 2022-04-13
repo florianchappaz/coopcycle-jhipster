@@ -1,0 +1,25 @@
+{
+  "coopcycleApp": {
+    "zone": {
+      "home": {
+        "title": "Zones",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "Zone を追加",
+        "createOrEditLabel": "Zoneを追加または編集",
+        "notFound": "No Zones found"
+      },
+      "created": "A new Zone is created with identifier {{ param }}",
+      "updated": "A Zone is updated with identifier {{ param }}",
+      "deleted": "A Zone is deleted with identifier {{ param }}",
+      "delete": {
+        "question": "Zone {{ id }}を削除してもよろしいですか？"
+      },
+      "detail": {
+        "title": "Zone"
+      },
+      "id": "ID",
+      "city": "City",
+      "cooperative": "Cooperative"
+    }
+  }
+}

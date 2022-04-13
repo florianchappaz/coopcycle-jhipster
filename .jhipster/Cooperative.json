@@ -1,0 +1,48 @@
+{
+  "applications": ["coopcycle"],
+  "changelogDate": "20220326220100",
+  "dto": "mapstruct",
+  "embedded": false,
+  "entityTableName": "cooperative",
+  "fields": [
+    {
+      "fieldName": "name",
+      "fieldType": "String",
+      "fieldValidateRules": ["required", "unique", "maxlength"],
+      "fieldValidateRulesMaxlength": "30"
+    }
+  ],
+  "fluentMethods": true,
+  "jpaMetamodelFiltering": false,
+  "name": "Cooperative",
+  "pagination": "no",
+  "readOnly": false,
+  "relationships": [
+    {
+      "otherEntityName": "zone",
+      "otherEntityRelationshipName": "cooperative",
+      "ownerSide": true,
+      "relationshipName": "zone",
+      "relationshipType": "one-to-one"
+    },
+    {
+      "otherEntityName": "deliverMan",
+      "otherEntityRelationshipName": "cooperative",
+      "relationshipName": "deliverMan",
+      "relationshipType": "one-to-many"
+    },
+    {
+      "otherEntityName": "restaurant",
+      "otherEntityRelationshipName": "cooperative",
+      "relationshipName": "restaurant",
+      "relationshipType": "one-to-many"
+    },
+    {
+      "otherEntityName": "customer",
+      "otherEntityRelationshipName": "cooperative",
+      "relationshipName": "customer",
+      "relationshipType": "one-to-many"
+    }
+  ],
+  "service": "serviceClass"
+}

@@ -1,0 +1,29 @@
+{
+  "applications": ["coopcycle"],
+  "changelogDate": "20220326220101",
+  "dto": "mapstruct",
+  "embedded": false,
+  "entityTableName": "zone",
+  "fields": [],
+  "fluentMethods": true,
+  "jpaMetamodelFiltering": false,
+  "name": "Zone",
+  "pagination": "no",
+  "readOnly": false,
+  "relationships": [
+    {
+      "otherEntityName": "city",
+      "otherEntityRelationshipName": "zone",
+      "relationshipName": "city",
+      "relationshipType": "one-to-many"
+    },
+    {
+      "otherEntityName": "cooperative",
+      "otherEntityRelationshipName": "zone",
+      "ownerSide": false,
+      "relationshipName": "cooperative",
+      "relationshipType": "one-to-one"
+    }
+  ],
+  "service": "serviceClass"
+}

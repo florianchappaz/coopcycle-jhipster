@@ -1,0 +1,27 @@
+{
+  "coopcycleApp": {
+    "meal": {
+      "home": {
+        "title": "Meals",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "Genera un nuovo Meal",
+        "createOrEditLabel": "Genera o modifica un Meal",
+        "notFound": "No Meals found"
+      },
+      "created": "&Egrave; stato generato un nuovo Meal con identificatore {{ param }}",
+      "updated": "&Egrave; stato aggiornato Meal identificato da {{ param }}",
+      "deleted": "&Egrave; stato eliminato Meal con identificatore {{ param }}",
+      "delete": {
+        "question": "Sei sicuro di volere eliminare Meal {{ id }}?"
+      },
+      "detail": {
+        "title": "Meal"
+      },
+      "id": "ID",
+      "name": "Name",
+      "price": "Price",
+      "description": "Description",
+      "restaurant": "Restaurant"
+    }
+  }
+}

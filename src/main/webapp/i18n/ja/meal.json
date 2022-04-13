@@ -1,0 +1,27 @@
+{
+  "coopcycleApp": {
+    "meal": {
+      "home": {
+        "title": "Meals",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "Meal を追加",
+        "createOrEditLabel": "Mealを追加または編集",
+        "notFound": "No Meals found"
+      },
+      "created": "A new Meal is created with identifier {{ param }}",
+      "updated": "A Meal is updated with identifier {{ param }}",
+      "deleted": "A Meal is deleted with identifier {{ param }}",
+      "delete": {
+        "question": "Meal {{ id }}を削除してもよろしいですか？"
+      },
+      "detail": {
+        "title": "Meal"
+      },
+      "id": "ID",
+      "name": "Name",
+      "price": "Price",
+      "description": "Description",
+      "restaurant": "Restaurant"
+    }
+  }
+}

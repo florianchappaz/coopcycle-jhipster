@@ -1,0 +1,25 @@
+{
+  "coopcycleApp": {
+    "zone": {
+      "home": {
+        "title": "Zones",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "Genera un nuovo Zone",
+        "createOrEditLabel": "Genera o modifica un Zone",
+        "notFound": "No Zones found"
+      },
+      "created": "&Egrave; stato generato un nuovo Zone con identificatore {{ param }}",
+      "updated": "&Egrave; stato aggiornato Zone identificato da {{ param }}",
+      "deleted": "&Egrave; stato eliminato Zone con identificatore {{ param }}",
+      "delete": {
+        "question": "Sei sicuro di volere eliminare Zone {{ id }}?"
+      },
+      "detail": {
+        "title": "Zone"
+      },
+      "id": "ID",
+      "city": "City",
+      "cooperative": "Cooperative"
+    }
+  }
+}

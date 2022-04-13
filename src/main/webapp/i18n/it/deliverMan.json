@@ -1,0 +1,27 @@
+{
+  "coopcycleApp": {
+    "deliverMan": {
+      "home": {
+        "title": "DeliverMen",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "Genera un nuovo Deliver Man",
+        "createOrEditLabel": "Genera o modifica un Deliver Man",
+        "notFound": "No Deliver Men found"
+      },
+      "created": "&Egrave; stato generato un nuovo Deliver Man con identificatore {{ param }}",
+      "updated": "&Egrave; stato aggiornato Deliver Man identificato da {{ param }}",
+      "deleted": "&Egrave; stato eliminato Deliver Man con identificatore {{ param }}",
+      "delete": {
+        "question": "Sei sicuro di volere eliminare Deliver Man {{ id }}?"
+      },
+      "detail": {
+        "title": "Deliver Man"
+      },
+      "id": "ID",
+      "name": "Name",
+      "age": "Age",
+      "profilePicture": "Profile Picture",
+      "cooperative": "Cooperative"
+    }
+  }
+}
